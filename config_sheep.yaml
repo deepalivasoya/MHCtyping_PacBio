@@ -1,0 +1,38 @@
+gene_primer: "TGAGAGRCACATCAGARCC"
+gene_primer_rev_comp: "GGYTCTGATGTGYCTCTCA"
+smart_primer: "GCAGTGGTATCAACGCAGAGT"
+umi_seq: "TCTTG"
+length_sd: 10
+miseq_database: "fasta/Ovine.MHCI.fa"
+samples:
+  - Sample111
+  - Sample118
+  - Sample119
+  - Sample132
+  - Sample137B
+  - Sample142
+  - Sample148
+  - Sample154
+  - Sample162
+  - Sample168
+  - Sample171
+  - Sample174
+  - Sample181
+  - Sample182
+  - Sample23
+  - Sample26
+  - Sample47
+  - Sample56
+  - Sample59
+  - Sample65
+  - Sample66
+  - Sample74
+  - Sample8
+  - Sheep1
+  - Sheep1b
+  - Sheep3
+  - Sheep4
+  - Sheep4b
+  - Sheep5
+  - Sheep7
+  - Sheep8

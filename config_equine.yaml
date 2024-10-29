@@ -1,0 +1,27 @@
+gene_primer: "KGAGASAYRCATCAGAKCC"
+gene_primer_rev_comp: "GGMTCTGATGYRTSTCTCM"
+smart_primer: "GCAGTGGTATCAACGCAGAGT"
+umi_seq: "TCTTG"
+length_sd: 10
+miseq_database: "fasta/Equine.MHCI.fasta"
+samples:
+  - 37009
+  - 37010
+  - 37011
+  - 37012
+  - 37014
+  - 37015
+  - 37018
+  - 37028
+  - 37029
+  - 37030
+  - 37033
+  - 37047
+  - 37054
+  - 37771
+  - 38314
+  - 38445
+  - 39234
+  - 40000
+  - 40003
+  - 40656
