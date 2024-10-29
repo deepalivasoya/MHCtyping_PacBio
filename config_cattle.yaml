@@ -1,0 +1,37 @@
+gene_primer: "GGGCTCTGATGTRTCTCTCA"
+gene_primer_rev_comp: "TGAGAGAYACATCAGAGCCC"
+smart_primer: "CTAATACGACTCACTATAGGGCAAGCAGTGGTATCAACGCAGAGT"
+umi_seq: "TCTTG"
+length_sd: 10
+miseq_database: "fasta/Bovine.MHCI.fasta"
+samples:
+  - sample_16_AC_001--sample_16_AC_001
+  - sample_22_AE_021--sample_22_AE_021
+  - sample_29_AE_052--sample_29_AE_052
+  - sample_7_AD_057--sample_7_AD_057
+  - sample_10_AD_101--sample_10_AD_101
+  - sample_17_AC_012--sample_17_AC_012
+  - sample_23_AE_025--sample_23_AE_025
+  - sample_2_AD_027--sample_2_AD_027
+  - sample_8_AD_060--sample_8_AD_060
+  - sample_11_AD_102--sample_11_AD_102
+  - sample_18_AC_018--sample_18_AC_018
+  - sample_24_AE_034--sample_24_AE_034
+  - sample_30_AE_063--sample_30_AE_063
+  - sample_9_AD_066--sample_9_AD_066
+  - sample_12_AD_105--sample_12_AD_105
+  - sample_19_AC_027--sample_19_AC_027
+  - sample_25_AE_035--sample_25_AE_035
+  - sample_3_AD_032--sample_3_AD_032
+  - sample_13_AD_110--sample_13_AD_110
+  - sample_1_AD_026--sample_1_AD_026
+  - sample_26_AE_039--sample_26_AE_039
+  - sample_4_AD_034--sample_4_AD_034
+  - sample_14_AD_118--sample_14_AD_118
+  - sample_20_AE_009--sample_20_AE_009
+  - sample_27_AE_045--sample_27_AE_045
+  - sample_5_AD_038--sample_5_AD_038
+  - sample_15_AD_121--sample_15_AD_121
+  - sample_21_AE_020--sample_21_AE_020
+  - sample_28_AE_049--sample_28_AE_049
+  - sample_6_AD_041--sample_6_AD_041
