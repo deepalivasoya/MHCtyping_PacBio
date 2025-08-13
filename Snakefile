@@ -5,7 +5,7 @@ rule main:
   input: expand("results/{sample}/clusters/{sample}_parents_clusters.fa", sample=config["samples"])
  
 rule trim_gene_primer:
-  input: "reads/{sample}/s.{sample}.fa"
+  input: lambda wildcards: "reads/{}.format(config['reads'][wildcards.sample]),
   output: "results/{sample}/cutadapt1.log"
   params:
    prefix = "{sample}",
