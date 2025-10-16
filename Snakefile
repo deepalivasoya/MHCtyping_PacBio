@@ -51,6 +51,7 @@ rule get_full_CDS:
    cmd = r"""'{if ($9 == 1 || $9 == 2) print $0}'"""
   shell:
     r"""
+      makeblastdb -in fasta/fullCDS.fa -dbtype nucl
       blastn -db fasta/fullCDS.fa -query results/{params.prefix}/cutadapt3.fa -outfmt "6 qseqid sseqid pident length qlen qstart qend slen sstart send mismatch gapopen" -out results/{params.prefix}/fullCDA.blast
       awk {params.cmd} results/{params.prefix}/fullCDA.blast | cut -f1,6 > results/{params.prefix}/orf.location
       python scripts/fetch_orf.py results/{params.prefix}/cutadapt3.fa results/{params.prefix}/orf.location results/{params.prefix}/orf.fa
