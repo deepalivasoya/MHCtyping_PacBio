@@ -18,7 +18,7 @@ for seq in sequences:
     if len(header_parts) > 1:
         try:
             read_count = int(header_parts[1])
-            if read_count >= 2:
+            if read_count >= 10:
                 filtered_sequences.append(seq)
         except ValueError:
             # Handle case where N2 is not an integer
